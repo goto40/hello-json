@@ -1,0 +1,12 @@
+{
+    "projectName": "HelloJson",
+    "languages": [{
+        "id": "hello-json",
+        "grammar": "src/language-server/hello-json.langium",
+        "fileExtensions": [".hellojson"],
+        "textMate": {
+            "out": "syntaxes/hello-json.tmLanguage.json"
+        }
+    }],
+    "out": "src/language-server/generated"
+}

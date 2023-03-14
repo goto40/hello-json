@@ -1,0 +1,29 @@
+{
+    "name": "Pierre",
+    "type": "Person",
+    "id": 123,
+    "inner1": {
+        "innername": "cool1",
+        "innerinfo": "info",
+        "inner11": {
+            "name": "Pierre2",
+            "type": "Person2"
+        },
+        "somearray": [
+            {
+                "propInObj1": "prop1"
+            },
+            {
+                "propInObj2": "prop2",
+                "more": [
+                    "not accessible",
+                    {"id": 0, "info": "info0"},
+                    {"id": 1, "info": "info1"},
+                    {"id": 2, "info": "info2"},
+                    {"id": 3, "info": "info3"},
+                    {"id": 4, "info": "info4"}
+                ]
+            }
+        ]
+    }
+}

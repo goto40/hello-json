@@ -1,0 +1,7 @@
+include-json "./hello.json" as hello
+
+reference hello: inner1.inner11.name
+//reference hello: wrong.link 
+reference hello: inner1.inner11.type
+reference hello: inner1.somearray._1.more._2.id
+reference hello: name
